@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    <title>Calendar</title>
+  </head>
+  <body>
+    <div class="container">
+      <button class="open-calendar-btn">Open Calendar</button>
+
+      <div class="calendar hide-calendar">
+        <div class="current-date-display">Date</div>
+        <div class="calendar-header">
+          <button class="previous-month-btn">&larr;</button>
+          <div class="current-month">Current Month</div>
+          <button class="next-month-btn">&rarr;</button>
+        </div>
+        <div class="days calendar-grid">
+          <div class="day" id="mon">Mon</div>
+          <div class="day" id="tue">Tue</div>
+          <div class="day" id="wed">Wed</div>
+          <div class="day" id="thu">Thu</div>
+          <div class="day" id="fri">Fri</div>
+          <div class="day" id="sat">Sat</div>
+          <div class="day day-off" id="sun">Sun</div>
+        </div>
+        <div class="days-nums calendar-grid"></div>
+      </div>
+    </div>
+  </body>
+</html>
